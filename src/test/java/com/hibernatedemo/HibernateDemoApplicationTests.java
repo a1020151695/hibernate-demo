@@ -70,7 +70,7 @@ class HibernateDemoApplicationTests {
     @Test
     public void testDelete(){
         ManageOrder manageOrder = new ManageOrder();
-        assertEquals(manageOrder.deleteOrder(6),1);
+        assertEquals(manageOrder.deleteOrder(7),1);
     }
 
 }
